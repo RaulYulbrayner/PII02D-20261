@@ -14,6 +14,7 @@ public class EstudianteBuilder {
 
     public EstudianteBuilder(Builder builder) {
         this.nombre = builder.nombre;
+        assert nombre != null;
         this.apellido = builder.apellido;
         this.grado = builder.grado;
         this.fechaNacimiento = builder.fechaNacimiento;

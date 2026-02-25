@@ -14,6 +14,7 @@ public class Estudiante {
 
     public Estudiante(String nombre, String apellido, String grado, String fechaNacimiento, String cedula, String genero, String rh, int altura, int peso) {
         this.nombre = nombre;
+        assert nombre != null;
         this.apellido = apellido;
         this.grado = grado;
         this.fechaNacimiento = fechaNacimiento;
