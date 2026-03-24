@@ -4,4 +4,6 @@ public abstract class VehiculoFactory {
 
     public abstract Vehiculo crearVehiculo();
 
+
+
 }
