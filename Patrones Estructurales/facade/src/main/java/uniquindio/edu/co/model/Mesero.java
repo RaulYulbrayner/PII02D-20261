@@ -9,7 +9,7 @@ public class Mesero {
     public Mesero(){
         this.cocina = new Cocina();
         this.servicioBebidas = new ServicioBebidas();
-        this.caja = new Caja();
+        //this.caja = new Caja();
     }
 
     public String tomarPedido(String cliente, String plato, String bebida, double costo){
