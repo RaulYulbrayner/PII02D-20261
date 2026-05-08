@@ -97,7 +97,6 @@ public class ColeccionRecursos implements RecursoBiblioteca{
     @Override
     public void visualizar(Usuario usuario) {
         System.out.println("Visualizando colección: " + titulo);
-
         for (RecursoBiblioteca recurso : recursos) {
             recurso.visualizar(usuario);
         }
